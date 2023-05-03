@@ -6,6 +6,8 @@ Hej! Mam na imię Iza, ale lubię też formę Issabel 😉 Dołączyłam do proj
 
 Głównie chciałabym się dowiedzieć jak ten świat wygląda w praktyce, a nie tylko uczyć się suchej teorii ktora potem i tak będzie wykorzystywana w ISTQB, raz na ruski rok albo wcale 😜
 
+<a href="https://drive.google.com/drive/folders/1HnLv-Wl9ri-DuomHIXAqFkM126pXqJoW?usp=sharing">Mój link do folderu w GoogleDrive</a>
+
 ## Subtask 4
 * Aplikacja służy do gromadzenia informacji o graczach, meczach i do dodawania raportów.
 
