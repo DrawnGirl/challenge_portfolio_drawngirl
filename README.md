@@ -34,3 +34,7 @@ Głównie chciałabym się dowiedzieć jak ten świat wygląda w praktyce, a nie
 * W zakładce "Gracze" wyświetlona lista graczy ma dwie ramki, padding jest w tym wypadku zbędny, źle to wygląda dla oka
 * Opcje dodawania meczu oraz raportów powinny znajdować się także na stronie głównej
 * Stronie przydałby się tryb ciemny oraz udogodnienia dla osób ze ślepotą barw
+
+# TASK 2
+## Subtask 3
+Piszemy Test Case'y aby po każdej zmianie w projekcie można było przeprowadzić te same kroki i sprawdzić czy aplikacja działa tak samo. Myślę, że jest to przydatne nie tylko dla samych testerów aby nie musieli wykonywać dwa razy tej samej pracy, ale również dla programistów którzy mogą sprawdzić swój kod jeszcze przed wysłaniem go dalej. A przynajmniej mogliby to robić ;)
