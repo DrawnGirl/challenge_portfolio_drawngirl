@@ -6,7 +6,7 @@ Hej! Mam na imię Iza, ale lubię też formę Issabel 😉 Dołączyłam do proj
 
 Głównie chciałabym się dowiedzieć jak ten świat wygląda w praktyce, a nie tylko uczyć się suchej teorii ktora potem i tak będzie wykorzystywana w ISTQB, raz na ruski rok albo wcale 😜
 
-<a href="https://drive.google.com/drive/folders/1HnLv-Wl9ri-DuomHIXAqFkM126pXqJoW?usp=sharing">Mój link do folderu w GoogleDrive</a>
+📎👉 <a href="https://drive.google.com/drive/folders/1HnLv-Wl9ri-DuomHIXAqFkM126pXqJoW?usp=sharing">Mój link do folderu w GoogleDrive</a>
 
 ## Subtask 4
 * Aplikacja służy do gromadzenia informacji o graczach, meczach i do dodawania raportów.
@@ -36,5 +36,32 @@ Głównie chciałabym się dowiedzieć jak ten świat wygląda w praktyce, a nie
 * Stronie przydałby się tryb ciemny oraz udogodnienia dla osób ze ślepotą barw
 
 # TASK 2
+
+## Subtask 1
+
+📎👉 <a href="https://docs.google.com/spreadsheets/d/1YYV-omBHwfXd2Nbd3gPLC-5eoFfGCombsxRiBuFFWa4/edit?usp=sharing">Zadanko 1</a>
+
+## Subtask 2
+
+📎👉 <a href="https://docs.google.com/spreadsheets/d/1mO2sG1nVOD55XlaCMJivStgHn0kSA8KTPMmdEO4ljZY/edit?usp=sharing">Zadanko 2</a>
+
 ## Subtask 3
 Piszemy Test Case'y aby po każdej zmianie w projekcie można było przeprowadzić te same kroki i sprawdzić czy aplikacja działa tak samo. Myślę, że jest to przydatne nie tylko dla samych testerów aby nie musieli wykonywać dwa razy tej samej pracy, ale również dla programistów którzy mogą sprawdzić swój kod jeszcze przed wysłaniem go dalej. A przynajmniej mogliby to robić ;)
+
+# TASK 3
+
+## Subtask 1
+
+📎👉 <a href="https://drive.google.com/drive/folders/1D1qdifDkuaBR_XLjWw76bCe12DEEDog7?usp=sharing">Folder do zadania</a>
+
+## Subtask 2
+
+📎👉 <a href="https://docs.google.com/spreadsheets/d/1mO2sG1nVOD55XlaCMJivStgHn0kSA8KTPMmdEO4ljZY/edit?usp=sharing">Test case</a>
+
+📎👉 <a href="https://docs.google.com/spreadsheets/d/1kds9_MwOZCMiJhTvuCZW15Hdr9TIowSmDQOorX0ybb0/edit?usp=sharing">Bug report</a>
+
+## Subtask 3
+
+📎👉 <a href="https://docs.google.com/document/d/1Gu6HebRCrGp9FNibCCU9dV4L6incLgXFBDPDvIshpuk/edit?usp=sharing">Test report</a>
+
+# TASK 4
