@@ -65,3 +65,19 @@ Piszemy Test Case'y aby po każdej zmianie w projekcie można było przeprowadzi
 📎👉 <a href="https://docs.google.com/document/d/1Gu6HebRCrGp9FNibCCU9dV4L6incLgXFBDPDvIshpuk/edit?usp=sharing">Test report</a>
 
 # TASK 4
+
+## Subtask 1
+
+📎👉 <a href="https://docs.google.com/spreadsheets/d/1SrheTq43fNrCxlAWMDvzKuV10O1w7IIIHxNkFuNHEHQ/edit?usp=sharing">Mobile Test Case</a>
+
+## Subtask 2
+
+📎👉 <a href="https://docs.google.com/spreadsheets/d/1W5_lQwj8pds8YRSkElBHx0JGre-dbL4WlcbUuOSdRQ8/edit?usp=sharing">Bug Reports</a>
+
+## Subtask 3
+
+1. Jest to aplikacja do wystawiania róznych ogłoszeń oraz do przeglądania już wystawionych ofert.
+2. Uzytkownikiem końcowym są zarówno zwykli użytkownicy jak i firmy.
+3. Myślę, że poruszanie się po aplikacji jest intuicyjne a różne opcje do wyboru są dobrze opisane. Jest dużo opcji sortowania oraz filtrowania ogłoszeń i kategorii.
+4. Wydłużyłabym sesję logowania. Aplikacja często wylogowuje użytkownika, jeśli nie korzysta z niej przez kilka dni. Z tego powodu przestają przychodzić powiadomienia np. o nowych wiadomościach lub aktualności na temat obserwowanych/wystawionych ogłoszeń.
+5. Przy testowaniu aplikacji mobilnych trzeba byc gotowym na większą ilość wariantów różnych urządzeń, na których użytkownicy będą korzystać z danej aplikacji. Użytkownicy urządzeń mobilnych mają inne priorytety i wymagania niż uzytkownicy aplikacji internetowych. Myślę jednak, że daje to większe pole do popisu dla testerów i to jest fajne 😁
