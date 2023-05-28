@@ -68,11 +68,11 @@ Piszemy Test Case'y aby po każdej zmianie w projekcie można było przeprowadzi
 
 ## Subtask 1
 
-📎👉 <a href="https://docs.google.com/spreadsheets/d/1SrheTq43fNrCxlAWMDvzKuV10O1w7IIIHxNkFuNHEHQ/edit?usp=sharing">Mobile Test Case</a>
+📎👉 <a href="https://docs.google.com/spreadsheets/d/1rEmvnlmlfQOP9lMbGRDrnqdIKBZGE7bIegh1aOfewkM/edit?usp=sharing">Mobile Bug report</a>
 
 ## Subtask 2
 
-📎👉 <a href="https://docs.google.com/spreadsheets/d/1W5_lQwj8pds8YRSkElBHx0JGre-dbL4WlcbUuOSdRQ8/edit?usp=sharing">Bug Reports</a>
+📎👉 <a href="https://docs.google.com/spreadsheets/d/1D01RFEOdUBrRwOYDSxcmORUKASaRBM1OtcOarzpPBNA/edit?usp=sharing">OLX Bug Reports</a>
 
 ## Subtask 3
 
