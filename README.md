@@ -137,4 +137,32 @@ Piszemy Test Case'y aby po każdej zmianie w projekcie można było przeprowadzi
         ```
         ![image](https://github.com/DrawnGirl/challenge_portfolio_drawngirl/assets/83364852/c712553d-36bd-4d24-a32a-cc37233ff7fd)
 
+# TASK 6
 
+## Subtask 1
+
+  11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd 🙈
+        ```sql
+        UPDATE `customers` SET surname = 'Miler' WHERE customer_id = 3;
+        ```
+        ![image](https://github.com/DrawnGirl/challenge_portfolio_drawngirl/assets/83364852/567b68e7-d39f-4623-9cc8-ab7b5ead8f4d)
+        ![image](https://github.com/DrawnGirl/challenge_portfolio_drawngirl/assets/83364852/25e071e2-dab7-4a85-bd60-845f395366a5)
+  12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.
+        ```sql
+        SELECT customers.name, customers.email FROM sale INNER JOIN customers ON sale.movie_id=4 ORDER BY sale.sale_date DESC LIMIT 1;
+        ```
+        ![image](https://github.com/DrawnGirl/challenge_portfolio_drawngirl/assets/83364852/9e9b0cbb-2dbf-4761-85db-ec0adbad83c3)
+  13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com
+        ```sql
+        UPDATE `customers` SET email = 'pati@mail.com' WHERE customer_id = 4;
+        ```
+        ![image](https://github.com/DrawnGirl/challenge_portfolio_drawngirl/assets/83364852/235ff6aa-dfbd-47c1-b089-be4acbc8c66d)
+  14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).
+        ```sql
+        SELECT customers.name, customers.surname, movies.title FROM sale INNER JOIN customers ON sale.customer_id=customers.customer_id INNER JOIN movies ON movies.movie_id=sale.movie_id;
+        ```
+        ![image](https://github.com/DrawnGirl/challenge_portfolio_drawngirl/assets/83364852/93e50101-566e-44d3-93a6-a0bb6fc1753c)
+  15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag
+        ```sql
+        SELECT customers.name, customers.surname, movies.title FROM sale INNER JOIN customers ON sale.customer_id=customers.customer_id INNER JOIN movies ON movies.movie_id=sale.movie_id;
+        ```
