@@ -162,7 +162,28 @@ Piszemy Test Case'y aby po każdej zmianie w projekcie można było przeprowadzi
         SELECT customers.name, customers.surname, movies.title FROM sale INNER JOIN customers ON sale.customer_id=customers.customer_id INNER JOIN movies ON movies.movie_id=sale.movie_id;
         ```
         ![image](https://github.com/DrawnGirl/challenge_portfolio_drawngirl/assets/83364852/93e50101-566e-44d3-93a6-a0bb6fc1753c)
-  15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag
+  ||15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag
         ```sql
-        SELECT customers.name, customers.surname, movies.title FROM sale INNER JOIN customers ON sale.customer_id=customers.customer_id INNER JOIN movies ON movies.movie_id=sale.movie_id;
+        SELECT CONCAT(LEFT(customers.name,2), RIGHT(customers.surname,1)) AS pseudonym FROM customers;
+        ```
+        ![image](https://github.com/DrawnGirl/challenge_portfolio_drawngirl/assets/83364852/8df5283b-675f-4c0a-9c33-25fe2d6c1dee)
+  16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.
+        ```sql
+        SELECT DISTINCT movies.title FROM movies INNER JOIN sale ON sale.movie_id=movies.movie_id;
+        ```
+        ![image](https://github.com/DrawnGirl/challenge_portfolio_drawngirl/assets/83364852/23af16a8-42cd-42fa-8128-fc8a285744a7)
+  17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION)
+        ```sql
+        SELECT name FROM actors UNION SELECT name FROM customers ORDER BY name ASC;
+        ```
+        ![image](https://github.com/DrawnGirl/challenge_portfolio_drawngirl/assets/83364852/429882c4-2dc9-4a6e-bff9-6f8b8bda396f)
+  18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).
+        ```sql
+        UPDATE movies SET price=price+2.5 WHERE year_of_production>2000;
+        ```
+        ![image](https://github.com/DrawnGirl/challenge_portfolio_drawngirl/assets/83364852/4b84de1e-a7de-4643-90b0-0530551eef30)
+        ![image](https://github.com/DrawnGirl/challenge_portfolio_drawngirl/assets/83364852/5e44ba8c-39fc-42b1-9cf7-7c3a157338af)
+  19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał
+        ```sql
+        UPDATE movies SET price=price+2.5 WHERE year_of_production>2000;
         ```
