@@ -166,7 +166,7 @@ Piszemy Test Case'y aby po każdej zmianie w projekcie można było przeprowadzi
         ```sql
         ALTER TABLE customers ADD COLUMN pseudonym VARCHAR(3) GENERATED ALWAYS AS (CONCAT(LEFT(name, 2), RIGHT(surname, 1))) STORED;
         ```
-        ![image](https://github.com/DrawnGirl/challenge_portfolio_drawngirl/assets/83364852/8df5283b-675f-4c0a-9c33-25fe2d6c1dee)
+        ![image](https://github.com/DrawnGirl/challenge_portfolio_drawngirl/assets/83364852/3ea3c843-3b9e-4d2e-a490-6e4dd002edfc)
   16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.
         ```sql
         SELECT DISTINCT movies.title FROM movies INNER JOIN sale ON sale.movie_id=movies.movie_id;
@@ -187,7 +187,13 @@ Piszemy Test Case'y aby po każdej zmianie w projekcie można było przeprowadzi
         ```sql
         SELECT actors.name, actors.surname, movies.title FROM actors INNER JOIN cast ON actors.actor_id = cast.actor_id INNER JOIN movies ON cast.movie_id = movies.movie_id WHERE actors.actor_id = 4;
         ```
+        ![image](https://github.com/DrawnGirl/challenge_portfolio_drawngirl/assets/83364852/769a4dcc-b91a-4253-bf4e-774881d669ce)
   20. A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa
         ```sql
         INSERT INTO customers (customer_id, name, surname, email, pseudonym) VALUES (7, 'Honia', 'Stuczka-Kucharska', 'honia@mail.com', 'Hoa');
         ```
+        ![image](https://github.com/DrawnGirl/challenge_portfolio_drawngirl/assets/83364852/3c46815d-78a1-48d4-b856-0721d0b9140b)
+## Subtask 2 
+Wynik testu 👇
+   ![image](https://github.com/DrawnGirl/challenge_portfolio_drawngirl/assets/83364852/9d8454da-158a-46f4-9635-33b1487e39fd)
+Nie jest źle, ale mogło być lepiej 😅
