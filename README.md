@@ -194,6 +194,6 @@ Piszemy Test Case'y aby po każdej zmianie w projekcie można było przeprowadzi
         ```
         ![image](https://github.com/DrawnGirl/challenge_portfolio_drawngirl/assets/83364852/3c46815d-78a1-48d4-b856-0721d0b9140b)
 ## Subtask 2 
-Wynik testu 👇
-   ![image](https://github.com/DrawnGirl/challenge_portfolio_drawngirl/assets/83364852/9d8454da-158a-46f4-9635-33b1487e39fd)
+Wynik testu 👇  
+   ![image](https://github.com/DrawnGirl/challenge_portfolio_drawngirl/assets/83364852/9d8454da-158a-46f4-9635-33b1487e39fd)  
 Nie jest źle, ale mogło być lepiej 😅
