@@ -162,9 +162,9 @@ Piszemy Test Case'y aby po każdej zmianie w projekcie można było przeprowadzi
         SELECT customers.name, customers.surname, movies.title FROM sale INNER JOIN customers ON sale.customer_id=customers.customer_id INNER JOIN movies ON movies.movie_id=sale.movie_id;
         ```
         ![image](https://github.com/DrawnGirl/challenge_portfolio_drawngirl/assets/83364852/93e50101-566e-44d3-93a6-a0bb6fc1753c)
-  ||15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag
+  15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag
         ```sql
-        SELECT CONCAT(LEFT(customers.name,2), RIGHT(customers.surname,1)) AS pseudonym FROM customers;
+        ALTER TABLE customers ADD COLUMN pseudonym VARCHAR(3) GENERATED ALWAYS AS (CONCAT(LEFT(name, 2), RIGHT(surname, 1))) STORED;
         ```
         ![image](https://github.com/DrawnGirl/challenge_portfolio_drawngirl/assets/83364852/8df5283b-675f-4c0a-9c33-25fe2d6c1dee)
   16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.
@@ -185,5 +185,9 @@ Piszemy Test Case'y aby po każdej zmianie w projekcie można było przeprowadzi
         ![image](https://github.com/DrawnGirl/challenge_portfolio_drawngirl/assets/83364852/5e44ba8c-39fc-42b1-9cf7-7c3a157338af)
   19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał
         ```sql
-        UPDATE movies SET price=price+2.5 WHERE year_of_production>2000;
+        SELECT actors.name, actors.surname, movies.title FROM actors INNER JOIN cast ON actors.actor_id = cast.actor_id INNER JOIN movies ON cast.movie_id = movies.movie_id WHERE actors.actor_id = 4;
+        ```
+  20. A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa
+        ```sql
+        INSERT INTO customers (customer_id, name, surname, email, pseudonym) VALUES (7, 'Honia', 'Stuczka-Kucharska', 'honia@mail.com', 'Hoa');
         ```
